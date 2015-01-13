@@ -5,7 +5,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
+// controller to handle web requests
 @Controller
 public class IssueController {
 	@RequestMapping(value="/issue",method=RequestMethod.GET)
